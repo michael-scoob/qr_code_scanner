@@ -4,9 +4,10 @@
 This repository contains a Python script designed to read and interpret barcode scanner input. The script translates the input from a barcode scanner, which is connected via USB and emulates keyboard input, into a readable string. The data is then logged, and the barcode value is returned for further processing or display. This utility is particularly useful in retail, warehousing, and other environments where barcode scanning is a common requirement.
 Key Features
 
-    Barcode Reading: Converts the input from a barcode scanner into a readable string.
-    Logging: Logs every barcode scanned to bc_log.log, facilitating debugging and tracking of scanning history.
-    Compatibility: Developed and tested on Linux-based systems, with potential to be adapted for other operating systems.
+### Barcode Reading: 
+- Converts the input from a barcode scanner into a readable string.
+- Logging: Logs every barcode scanned to bc_log.log, facilitating debugging and tracking of scanning history.
+- Compatibility: Developed and tested on Linux-based systems, with potential to be adapted for other operating systems.
 
 ## Getting Started
 
