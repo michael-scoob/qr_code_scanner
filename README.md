@@ -1,7 +1,7 @@
-# Barcode Scanner Reader Repository
+# QR-Code/Barcode Scanner Reader in Python
 ## Overview
 
-This repository contains a Python script designed to read and interpret barcode scanner input. The script translates the input from a barcode scanner, which is connected via USB and emulates keyboard input, into a readable string. The data is then logged, and the barcode value is returned for further processing or display. This utility is particularly useful in retail, warehousing, and other environments where barcode scanning is a common requirement.
+This repository contains a Python script designed to read and interpret barcode and qr-code scanner input. The script translates the input from a barcode scanner, which is connected via USB and emulates keyboard input, into a readable string. The data is then logged, and the barcode value is returned for further processing or display. This utility is particularly useful in retail, warehousing, and other environments where barcode scanning is a common requirement.
 Key Features
 
 ### Barcode Reading: 
@@ -28,19 +28,14 @@ For Linux users, the script should work with any distribution, but you need to e
 
 # Usage
 
-    Clone this repository or download the Python code to your local machine.
+1) Clone this repository or download the Python code to your local machine.
 
-    Make sure your barcode scanner is connected to your computer.
+2) Make sure your barcode scanner is connected to your computer.
 
-    Run the script:
-
-    bash
-
-    python barcode_reader.py
-
-    Scan a barcode, and the read string will be displayed in the console.
-
-    The scanned data will also be logged to bc_log.log.
+3) Run the script:
+python barcode_reader.py
+Scan a barcode, and the read string will be displayed in the console.
+The scanned data will also be logged to bc_log.log.
 
 ## Logging
 
